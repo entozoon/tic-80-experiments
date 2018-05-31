@@ -1,6 +1,6 @@
 # [Tic-80](https://github.com/nesbox/TIC-80/) Experiments
 
-## [DEMO 🎮](https://entozoon.github.io/tick-80-experiments/example.html)
+## [DEMO 🎮](https://entozoon.github.io/tick-80-experiments/dist/example.html)
 
 ## How I Began
 
@@ -30,13 +30,13 @@ As above, but then hit escape and type:
     save example
     folder (to find where the last .tic one is output)
 
-Copy all those bad boys to /docs (because.. github pages)
+Copy all those bad boys to /dist
 
 ## Run Compiled
 
 Open .exe or .html as normal, or to run compiled cartridge:
 
-    ./tic80 docs/example.tic
+    ./tic80 dist/example.tic
 
 ## Reference (tic80.exe)
 
