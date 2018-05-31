@@ -1,6 +1,6 @@
 # [Tic-80](https://github.com/nesbox/TIC-80/) Experiments
 
-** [DEMO](/dist/example.html) **
+## [DEMO](/dist/example.html)
 
 ## How I Began
 
