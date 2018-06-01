@@ -4,7 +4,9 @@
   "description": "Tic 80 experiments",
   "main": "index.js",
   "scripts": {
-    "convert": "luatots src-lua-to-convert src"
+    "convert":
+      "node ./node_modules/luatots/dist/index.js \"./lua-js-convert-input\" \"./lua-js-convert-output\"",
+    "postconvert": "cd lua-js-convert-output && del *.js && ren *.ts *.js"
   },
   "repository": {
     "type": "git",

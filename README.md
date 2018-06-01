@@ -5,11 +5,10 @@
 ## To Do
 
 * Console output for dev
-* Lua to JS converter for examples (see notes at end)
 
 ## New Programme
 
-Copy src/example.js and create a new file, then use similar commands to below:
+Copy `/src/example.js` and create a new file, then use similar commands to below:
 
 ## Dev
 
@@ -28,7 +27,7 @@ As above, but then hit escape and type:
     save example
     folder (to find where the last .tic one is output)
 
-Copy all those bad boys to /dist
+Copy all those bad boys to `/dist`
 
 ## Run Compiled
 
@@ -73,13 +72,19 @@ Create a blank js game [swap js for lua if that's your thing]:
     edit
     [copy all code to, say src/example.js]
 
-## Lua to JS (surely there's a library, but jotting down notes nonetheless)
+## Lua to JS Conversation (yeah boi!)
+
+Say you want to convert tic-80 examples, because they're typically in Lua (which is okay, but JS is my maître d), this command converts .lua files from `/lua-js-convert-input` to `/lua-js-convert-output`
+
+    npm run convert
+
+Then you must also:
 
 #### Add to header
 
     // script: js
 
-#### Replaces
+#### (Conversion notes, if I decide to write my own parser - because.. it's likely)
 
 | Lua              | JS                                 |
 | ---------------- | ---------------------------------- |
