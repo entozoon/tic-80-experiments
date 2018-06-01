@@ -84,7 +84,9 @@ Then you must also:
 
     // script: js
 
-#### (Conversion notes, if I decide to write my own parser - because.. it's likely)
+#### Now..
+
+The converter is pretty garbage. They all are (trust). So if I ever end up writing my own, I'll jot down a few notes:
 
 | Lua              | JS                                 |
 | ---------------- | ---------------------------------- |
