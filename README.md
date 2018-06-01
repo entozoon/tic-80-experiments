@@ -1,5 +1,7 @@
 # [Tic-80](https://github.com/nesbox/TIC-80/) Experiments
 
+Mostly for my own entertainment, but there might be some useful tips or dev processes for someone else as tic-80 is generally wired up for creating games within the app but that's not my bag.
+
 ## [DEMO 🎮](https://entozoon.github.io/tic-80-experiments/dist/example.html)
 
 ## To Do
@@ -34,6 +36,31 @@ Copy all those bad boys to `/dist`
 Open .exe or .html as normal, or to run compiled cartridge:
 
     ./tic80 dist/example.tic
+
+## Music
+
+All music is made within Tic-80 (there are no viable converters ATOW)
+play first track...
+
+    music 0 0 0 false
+
+### Music Editor
+
+### Notes:
+
+* A pattern must be 01+ (rather than default 00) before you can edit notes.
+* Effects are in development :( (but I reckon Witch 'em up uses them..)
+
+### Keys
+
+| Key   | Command      |
+| ----- | ------------ |
+| Alt-5 | Music Editor |
+| Alt-4 | SFX Editor   |
+| Enter | Play frame   |
+| A     | Break        |
+| ZXC.. | Notes        |
+| SDF.. | Sharps       |
 
 ## Reference (tic80.exe)
 
@@ -96,5 +123,6 @@ The converter is pretty garbage. They all are (trust). So if I ever end up writi
 | if foo=2         | if (foo=2)                         |
 | foo=2            | var foo=2                          |
 | math.random(a,b) | `a + Math.random() * (b - a) * 2`? |
+|                  |                                    |
 
 ^ Enough for shake.js
