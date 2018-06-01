@@ -1,6 +1,6 @@
 # [Tic-80](https://github.com/nesbox/TIC-80/) Experiments
 
-## [DEMO 🎮](https://entozoon.github.io/tick-80-experiments/dist/example.html)
+## [DEMO 🎮](https://entozoon.github.io/tic-80-experiments/dist/example.html)
 
 ## To Do
 
