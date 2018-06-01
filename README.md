@@ -37,6 +37,15 @@ Open .exe or .html as normal, or to run compiled cartridge:
 
     ./tic80 dist/example.tic
 
+## Source of Other Games
+
+The .tic cartridge files are actually totally uncompiled.
+Within tic80 you can do, say `load witch.tic` and alt-3, alt-5, etc through it all!
+
+## Sprites and Maps
+
+Looks to me like the sprite and map editor is simple but powerful AF so totally worth learning.
+
 ## Music
 
 All music is made within Tic-80 (there are no viable converters ATOW)
