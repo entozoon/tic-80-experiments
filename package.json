@@ -1,0 +1,22 @@
+{
+  "name": "tic-80-experiments",
+  "version": "1.0.0",
+  "description": "Tic 80 experiments",
+  "main": "index.js",
+  "scripts": {
+    "convert": "luatots src-lua-to-convert src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/tick-80-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/tick-80-experiments/issues"
+  },
+  "homepage": "https://github.com/entozoon/tick-80-experiments#readme",
+  "dependencies": {
+    "luatots": "^1.1.0"
+  }
+}
