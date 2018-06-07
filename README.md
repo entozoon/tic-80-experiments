@@ -4,17 +4,13 @@ Mostly for my own entertainment, but there might be some useful tips or dev proc
 
 ## [DEMO 🎮](https://entozoon.github.io/tic-80-experiments/dist/example.html)
 
-## To Do
-
-* Console output for dev
-
 ## New Programme
 
 Copy `/src/example.js` and create a new file, then use similar commands to below:
 
 ## Dev
 
-    ./tic80 -code-watch src/example.js
+    ./tic80 -code-watch src/example.js > debug.log
 
 ### Refresh - it auto syncs but not refresh
 

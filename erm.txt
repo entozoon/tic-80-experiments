@@ -1,0 +1,140 @@
+
+ TIC-80 tiny computer 0.60.3
+ http://tic.computer (C) 2017
+
+ loading cart...
+
+>---------------------
+>All global variables:
+>_G
+>_TIC80
+>_VERSION
+>assert
+>btn
+>btnp
+>circ
+>circb
+>clip
+>cls
+>collectgarbage
+>coroutine
+>	create
+>	isyieldable
+>	resume
+>	running
+>	status
+>	wrap
+>	yield
+>dofile
+>dump
+>error
+>exit
+>font
+>getmetatable
+>ipairs
+>key
+>keyp
+>line
+>load
+>loadfile
+>map
+>math
+>	abs
+>	acos
+>	asin
+>	atan
+>	atan2
+>	ceil
+>	cos
+>	cosh
+>	deg
+>	exp
+>	floor
+>	fmod
+>	frexp
+>	huge
+>	ldexp
+>	log
+>	log10
+>	max
+>	maxinteger
+>	min
+>	mininteger
+>	modf
+>	pi
+>	pow
+>	rad
+>	random
+>	randomseed
+>	sin
+>	sinh
+>	sqrt
+>	tan
+>	tanh
+>	tointeger
+>	type
+>	ult
+>memcpy
+>memset
+>mget
+>mouse
+>mset
+>music
+>next
+>pairs
+>pcall
+>peek
+>peek4
+>pix
+>pmem
+>poke
+>poke4
+>print
+>rawequal
+>rawget
+>rawlen
+>rawset
+>rect
+>rectb
+>reset
+>select
+>setmetatable
+>sfx
+>spr
+>string
+>	byte
+>	char
+>	dump
+>	find
+>	format
+>	gmatch
+>	gsub
+>	len
+>	lower
+>	match
+>	pack
+>	packsize
+>	rep
+>	reverse
+>	sub
+>	unpack
+>	upper
+>sync
+>table
+>	concat
+>	insert
+>	move
+>	pack
+>	remove
+>	sort
+>	unpack
+>textri
+>time
+>tonumber
+>tostring
+>trace
+>tri
+>type
+>xpcall
+>---------------------
+>
